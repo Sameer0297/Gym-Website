@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/aab26a09e4.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>Document</title>
+    <style>
+    .group{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .card{
+    width:30%;
+    border:1px solid black;
+    margin-top:30px;
+    border-radius:30px 30px 0px 0px ;
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width:750px){
+    .group{
+        flex-direction: column;
+    }
+    .card{width:70%;}
+  }
+    </style>
+</head>
+<body>
+    
+            <!--NAV BAR-->
+            <div class="navbar">
+                <img src="Logo.png" alt="logo" class="logo1" width=300>
+                <center><img src="united.gif" alt="logo" class="logo"></center>
+                <ul><li><a href="index.html" >HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                        <!-- <div class="dropdown-content">
+                            <a href="https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP?si=sB2j6NmASjmC3LoYtnJL4A">Maroon 5</a>
+                            <a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz?si=h7JzqoOQRrWb33RLTnbZQQ">Linkin Park</a>
+                            <a href="https://neweb.netlify.app/">NEWEB MUSIC</a>
+                        </div> 
+                    </li>-->
+                <!-- add in li as dropdown to activate the drop down mode -->
+                    <li><a href="contact_us.html" id="active">CONTACT US</a>
+                            <!-- <div class="dropdown-content">
+                            <a href="Blog Post.html">My Blogs</a>
+                            <a href="https://www.youtube.com/c/CodeWithHarry">CODE WITH HARRY</a>
+                            <a href="https://www.w3schools.com/">W3School</a>
+                            </div> -->
+                    </li>
+                </ul>   
+            </div>
+<!-- nav bar ends --> 
+
+
+<div class="block_1">
+    <div class="inner_block_2">
+    </div>
+        <form method="post" name="google-sheet">
+            <img src="contactUs.png" id="conus">
+            <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+            <input type="number" name="Number" id="Number" placeholder="Enter Your Number">
+            <select name="Gender" id="Gender">
+                <option value="-Defalut-">Select Gender</option>
+                <option value="Male"> Male</option>
+                <option value="Male"> Female</option>
+            </select>
+            <input type="email" name="Email" id="Email" placeholder="Enter Your Email">
+            <textarea name="Address" id="Address" rows="10">Your Address : 
+            </textarea>
+            <input type="submit" value="SUMBIT">
+        </form>
+</div>
+<H1  style="text-align:center; margin-top:40px;">OUR TEAM</H1>
+
+<div class="group">
+    <div class="card">
+        <img src="male.png" class="pic">
+        <div class="container">
+            <h1>Satpal Arora</h1>
+            <p>Founder And CEO</p>
+        </div>
+    </div>
+<!-- This is partition -->
+    <div class="card">
+        <img src="male2.png" class="pic">
+        <div class="container">
+            <h1>Sanjiv Dixit</h1>
+            <p>Director</p>
+
+        </div>
+    </div>
+</div>
+            <!-- this is sgroup partition -->
+<div class="group">
+    <div class="card">
+        <img src="male3.png" class="pic">
+        <div class="container">
+            <h1>Sanjeev Lakra</h1>
+            <p>Product Expert</p>
+
+        </div>
+    </div>
+<!-- This is partition -->
+    <div class="card">
+        <img src="male4.png" class="pic">
+        <div class="container">
+            <h1>Rohit Singh</h1>
+            <p>It Support</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="group">
+    <div class="card">
+        <img src="male3.png" class="pic">
+        <div class="container">
+            <h1>Vipul Kalra</h1>
+            <p>B D M</p>
+
+        </div>
+    </div>
+<!-- This is partition -->
+    <div class="card">
+        <img src="female.png" class="pic">
+        <div class="container">
+            <h1>Minika Bhist</h1>
+            <p>Marketing</p>
+
+        </div>
+    </div>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.769860888237!2d77.09891791452388!3d28.666608789289818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04788ab9a191%3A0xb1603ddfff00e10b!2sUnited%20Nutrition%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1663896419770!5m2!1sen!2sin"  width=100% height="350" style="border:0; margin-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+
+<!-- this is the footer section -->
+<div class="footer" style="margin-top: 0px;">
+   
+    <table class="tab" border="0" >
+        <tr>
+            <th><h4>  LINKS  </h4></th>
+            <th><h4>  SOCIAL TAGS  </h4></th>
+        </tr>
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="#">sample_name (instagram)</a></td>
+        </tr>
+        <tr>
+            <td><a href="about.html">About</a></td>
+            <td><a href="#">sales@unitednutrition.in (gmail)</a></td>
+        </tr>
+        <tr>
+            <td><a href="contact_us.html">Contact Us</a></td>
+            <td><a href="#">sample_name (linkedin)</a></td>
+        </tr>
+    </table>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <table class="tab" style="padding:0px;">
+        <tr>
+           <td style="padding:0px"> <a href="http://www.facebook.com" class="a2" style=" color:cornflowerblue;display:inline-block;"><i class="fab fa-facebook-square"></i></a> </td>   
+       
+            <td style="padding:0px"><a href="http://www.twitter.com" class="a2" style="color:rgb(4, 186, 252);display:inline-block;"><i class="fab fa-twitter"></i></a> </td>   
+        
+            <td style="padding:0px"><a href="https://web.whatsapp.com" class="a2" style="color:rgb(57, 196, 18);display:inline-block;"><i class="fab fa-whatsapp"></i></a></td>
+            
+            <td style="padding:0px"><a href="https://www.instagram.com" class="a2" style="color:rgb(252, 70, 4);display:inline-block;"><i class="fab fa-instagram"></i></a></td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxAntMb07SbGq0_Q5YGoMJ8JB8-bj1EM0aNfxYOUkv7qbmhgg2k5nLrfRypAfh_vNYW/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
